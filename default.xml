@@ -440,7 +440,6 @@
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
@@ -589,7 +588,8 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="ss" revision="staging/cm-12.1" />
   <project path="frameworks/av" name="frameworks_av" remote="ss" revision="staging/cm-12.1" />
   <project path="frameworks/native" name="frameworks_native" remote="ss" revision="staging/cm-12.1" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="ss" revision="staging/cm-12.1" />
+  <project path="bionic" name="bionic" remote="ss" revision="staging/cm-12.1" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="ss" revision="staging/cm-12.1" />
   
   <!-- Devices for Testing -->
   <!-- G2 -->
