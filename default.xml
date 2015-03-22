@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.0_r1" />
+  
+  <remote  name="ss"
+           fetch="https://github.com/SaberSunset"
+           revision="ss5.1" />
 
   <remote  name="github"
            fetch=".."
@@ -22,7 +26,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="manifest" name="manifest" remote="ss" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
