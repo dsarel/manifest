@@ -9,6 +9,9 @@
   <remote  name="ss"
            fetch="https://github.com/SaberSunset"
            revision="ss5.1" />
+ 
+   <remote  name="blobs"
+           fetch="https://github.com/TheMuppets" />
 
   <remote  name="github"
            fetch=".."
@@ -584,5 +587,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="vendor_cm" remote="ss" />
+  
+  <!-- Devices -->
+  <!-- G2 -->
+  <project path="device/lge/d802" name="device_lge_d802" remote="ss" revision="cm-12.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="blobs" revision="cm-12.0"/>
 </manifest>
