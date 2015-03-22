@@ -584,6 +584,7 @@
   
   <!-- SaberSunset -->
   <project path="manifest" name="manifest" remote="ss" />
+  <project path="humboldt" name="humboldt" remote="ss" revision="master" />
   <project path="vendor/cm" name="vendor_cm" remote="ss" revision="staging/cm-12.1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="ss" revision="staging/cm-12.1" />
   <project path="frameworks/av" name="frameworks_av" remote="ss" revision="staging/cm-12.1" />
