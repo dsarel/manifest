@@ -461,7 +461,6 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
@@ -496,7 +495,6 @@
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -590,6 +588,8 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="ss" revision="staging/cm-12.1" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="ss" revision="staging/cm-12.1" />
   <project path="system/vold" name="system_vold" remote="ss" revision="staging/cm-12.1" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ss" revision="staging/cm-12.1" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="ss" revision="staging/cm-12.1" />
   
   <!-- Devices for Testing -->
   <!-- G2 -->
