@@ -589,7 +589,7 @@
   <project path="bionic" name="bionic" remote="ss" revision="staging/cm-12.1" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="ss" revision="staging/cm-12.1" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="ss" revision="staging/cm-12.1" />
-  <project path="system/vold" name="system_vold" remote="ss" revision="staging/cm-12.1"" />
+  <project path="system/vold" name="system_vold" remote="ss" revision="staging/cm-12.1" />
   
   <!-- Devices for Testing -->
   <!-- G2 -->
