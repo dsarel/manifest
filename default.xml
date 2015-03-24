@@ -3,9 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-  <default revision="refs/tags/android-5.1.0_r1"
-           remote="aosp"
-           sync-j="4" />
+           revision="refs/tags/android-5.1.0_r1" />
   
   <remote  name="ss"
            fetch="https://github.com/SaberSunset"
