@@ -6,8 +6,16 @@ The SaberSunset Project
 About
 ---------------
 
-Assuming that CyanogenMod is the biggest project we see in Android, we'll start making it better and cleaner starting on CM12.1. Our main focus is to make Android something different, something powerful, beautiful and stable.
-For a better beginning you should start to get familiar with [Git and Repo](http://source.android.com/source/developing.html).
+SaberSunset is a Hybrid ROM, between pure AOSP 5.1 and CyanogenMod 12.1 sources, we aim to make the brigde between these two Android concepts. We aim to offer an Open Sourced and Free well made ROM, as Google should be, as CyanogenMod should be as well, and they are not. 
+
+Google vs. CyanogenMod
+---------------
+
+You should be asking yourself why to do this. Let's explain it a bit.
+
+Google fails in almost every new update, even when supporting just Nexus devices, they still messing newer versions of our beloved O.S. by advertising a bunch of unbelievable fixes and features that you see it's not true, it's not fair with us.
+
+CyanogenMod wants to give the oppotunity for every device run a decent O.S. and they accomplish it very well. The problem is that many devices, poor ones specially, can't run a full customized and bloated O.S. and even high end devices suffer because of it's big sized code.
 
 Learning
 ---------------
