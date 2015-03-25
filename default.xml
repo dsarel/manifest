@@ -489,7 +489,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
-  <!-- CyanogenMod -->
+  <!-- CyanogenMod >
   <project path="art" name="android_art" remote="cm" />
   <project path="bionic" name="android_bionic" remote="cm" />
   <project path="development" name="android_development" remote="cm" />
@@ -521,7 +521,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" />
+  <project path="external/zlib" name="android_external_zlib" remote="cm" -->
   
   <!--
   ╔══╗
@@ -536,6 +536,7 @@
   <project path="build" name="build" remote="ss" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="frameworks/av" name="frameworks_av" remote="ss" />
   
   <!-- Qcom -->
