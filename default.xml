@@ -489,7 +489,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
-  <!-- CyanogenMod -->
+  <!-- CyanogenMod >
   <project path="art" name="android_art" remote="cm" />
   <project path="bionic" name="android_bionic" remote="cm" />
   <project path="development" name="android_development" remote="cm" />
@@ -509,7 +509,7 @@
   <project path="external/fuse" name="android_external_fuse" remote="cm" />
   <project path="external/google" name="android_external_google" remote="cm" />
   <project path="external/jpeg" name="android_external_jpeg" remote="cm" />
-  <!-- project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
   <project path="external/libtar" name="android_external_libtar" remote="cm" />
   <project path="external/libxml2" name="android_external_libxml2" remote="cm" />
