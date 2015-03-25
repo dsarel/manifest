@@ -62,7 +62,6 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -70,7 +69,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -112,7 +110,6 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -125,10 +122,8 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
@@ -157,7 +152,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
@@ -174,8 +168,6 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -193,7 +185,6 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
@@ -243,9 +234,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -260,8 +249,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
@@ -269,11 +256,9 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
@@ -509,6 +494,35 @@
   <project path="art" name="android_art" remote="cm" />
   <project path="bionic" name="android_bionic" remote="cm" />
   <project path="development" name="android_development" remote="cm" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
+  <project path="external/ant-wireless/ant_native" remote="cm" />
+  <project path="external/ant-wireless/ant_service" remote="cm"  />
+  <project path="external/ant-wireless/antradio-library" remote="cm"  />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-12.0" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" />
+  <project path="external/exfat" name="android_external_exfat" remote="cm" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" />
+  <project path="external/flac" name="android_external_flac" remote="cm" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" />
+  <project path="external/google" name="android_external_google" remote="cm" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="cm" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
+  <project path="external/libtar" name="android_external_libtar" remote="cm" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="cm" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" />
+  <project path="external/skia" name="android_external_skia" remote="cm" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" />
+  <project path="external/zlib" name="android_external_zlib" remote="cm" />
   
   <!--
   ╔══╗
