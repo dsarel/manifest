@@ -24,9 +24,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -528,7 +525,18 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
-  <!-- SaberSunset -->
+  <!--
+  ╔══╗
+  ╚╗╔╝
+  ╔╝(¯`v´¯)
+  ╚══`.¸.[SaberSunset]
+  -->
+  <!-- Manifest -->
   <project path="manifest" name="manifest" remote="ss" />
+  
+  <!-- Core -->
+  <project path="build" name="build" remote="ss" revision="staging/ss5.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   
 </manifest>
